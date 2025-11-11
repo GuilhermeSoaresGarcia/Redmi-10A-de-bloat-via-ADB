@@ -36,13 +36,14 @@ PKGS=(
 )
 
 for pkg in "${PKGS[@]}"; do
-  ./adb shell pm disable-user --user 0 "$pkg"
+echo "Currently Working on: $pkg"
+# ./adb shell pm disable-user --user 0 "$pkg"
 
 # To re-enable
 # ./adb shell pm enable --user 0 "$pkg"
 
 # To uninstall:
-# ./adb shell pm uninstall --user 0 "$pkg"
+./adb shell pm uninstall --user 0 "$pkg"
 
 done
 
