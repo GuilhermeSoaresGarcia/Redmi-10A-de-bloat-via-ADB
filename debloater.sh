@@ -72,7 +72,8 @@ UNINSTALL_PKGS=(
   com.xiaomi.simactivate.service
   com.android.wallpaperbackup
   com.google.android.marvin.talkback
-  com.google.android.feedback  
+  com.google.android.feedback
+  com.google.android.tts
 )
 
 # Disabling packages:
