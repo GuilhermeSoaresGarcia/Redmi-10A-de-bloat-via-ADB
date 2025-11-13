@@ -74,7 +74,6 @@ UNINSTALL_PKGS=(
   com.google.android.marvin.talkback
   com.google.android.feedback
   com.google.android.tts
-  com.google.android.gms
 )
 
 # Disabling packages:
